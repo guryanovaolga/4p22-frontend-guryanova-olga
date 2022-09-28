@@ -1,118 +1,896 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE tml>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">           
+    <meta carset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+    <title>ПЕРИОДИЧЕСКАЯ СИСТЕМА ХИМИЧЕСКИХ ЭЛЕМЕНТОВ Д.И.МЕНДЕЛЕЕВА</title>
 </head>
+<style>
+    .item {
+        border: 1px solid black;
+    }
+    .item-header {
+        display: flex;
+        justify-content: space-between;
+    }
+    .item-green {
+        background-color: green;
+    }
+    .item-gradient {
+        background-image: linear-gradient(30deg,green 45%, yellow 55%);
+    }
+    .item-gradient-py {
+        background: linear-gradient(30deg,purple 45%, yellow 55%)
+        
+    }
+    .item-indigo {
+        background-color: indigo;
+    }
+       
+        .item-purple {
+        background-color: purple;
+    }
+          
+    .item-yellow {
+        background-color: yellow;
+    }
+    table {
+        border: 1px solid black;
+    }
+</style>
+
+
+
 <body>
     <h1>ПЕРИОДИЧЕСКАЯ СИСТЕМА ХИМИЧЕСКИХ ЭЛЕМЕНТОВ Д.И.МЕНДЕЛЕЕВА</h1>
-    <table border='1' width='100' height='100'align="center">
+    <table widt='100%' height='50%'>
+        <thead>
         <tr>
-            <td>
-                1
+            <th class="item" width="20%" height='20%'></th>
+        </tr>
+        </thead>
+        <tbody>
+            <th class="item">ПЕРИОДЫ</th> 
+            <th class="item">I</th>
+            <th class="item">II</th>
+            <th class="item">III</th>
+            <th class="item">IV</th>
+            <th class="item">V</th>
+            <th class="item">VI</th>
+            <th class="item">VII</th>
+            <th class="item" colspan="3">VIII</th>                             
+                 
+            <tr>
+            <th class="item">1</th>
+                <td class="item item-green">
+                    <div class="item-header">
+                        <span>H</span>
+                        <span>1</span>
+                    </div>
+                    <div>Водород</div>
+                </td>
+                <td class="item"></td>
+                <td class="item"></td>
+                <td class="item"></td>
+                <td class="item"></td>
+                <td class="item"></td>
+                <td class="item"></td>
+                <td class="item item-indigo">
+                    <div class="item-header">
+                        <span>He</span>
+                        <span>2</span>
+                    </div>
+                    <div>Гелий</div>
+                <td class="item" colspan="2"></td>                             
+                </td>                
+            </tr> 
+            <tr>
+                <th class="item">2</th>
+                <td class="item item-green">
+                    <div class="item-header">
+                        <span>Li</span>
+                        <span>3</span>
+                    </div>
+                </div>
+                <div>Литий</div>
             </td>
-            <td>
-                (H)
+            <td class="item item-gradient">
+                <div class="item-header">
+                    <span>Be</span>
+                    <span>4</span>
+                </div>
+                <div>Берилий</div>
             </td>
-            <td>
-                &nbsp
-            </td>        
-            <td>
-                &nbsp
-            </td>          
-            <td>
-                &nbsp
+            <td class="item item-yellow">
+                <div class="item-header">
+                    <span>B</span>
+                    <span>5</span>
+                </div>
+                <div>Бор</div>
             </td>
-            <td>
-                &nbsp
+            <td class="item item-yellow">
+                <div class="item-header">
+                    <span>C</span>
+                    <span>6</span>
+                </div>
+                <div>Углерод</div>
             </td>
-            <td>
-                &nbsp
+            <td class="item item-yellow">
+                <div class="item-header">
+                    <span>N</span>
+                    <span>7</span>
+                </div>
+                <div>Азот</div>
             </td>
-            <td>H Водород
-
+            <td class="item item-yellow">
+                <div class="item-header">
+                    <span>O</span>
+                    <span>8</span>
+                </div>
+                <div>Кислород</div>
             </td>
-            <td>
-                He Гелий 
+            <td class="item item-yellow">
+                <div class="item-header">
+                    <span>F</span>
+                    <span>9</span>
+                </div>
+                <div>Фтор</div>
+            </td>
+            <td class="item item-indigo">
+                <div class="item-header">
+                    <span>Ne</span>
+                    <span>10</span>
+                </div>
+                <div>Неон</div>
+                <td class="item" colspan="2"></td> 
+            </td>                    
+              
+            </tr> 
+            <tr>
+                <th class="item">3</th>
+                <td class="item item-green">
+                    <div class="item-header">
+                        <span>Na</span>
+                        <span>11</span>
+                    </div>
+                </div>
+                <div>Натрий</div>
+            </td>
+            <td class="item item-green">
+                <div class="item-header">
+                    <span>Mg</span>
+                    <span>12</span>
+                </div>
+                <div>Магний</div>
+            </td>
+            <td class="item item-gradient-py">
+                <div class="item-header">
+                    <span>Al</span>
+                    <span>13</span>
+                </div>
+                <div>Алюмиий</div>
+            </td>
+            <td class="item item-yellow">
+                <div class="item-header">
+                    <span>Si</span>
+                    <span>14</span>
+                </div>
+                <div>Кремний</div>
+            </td>
+            <td class="item item-yellow">
+                <div class="item-header">
+                    <span>P</span>
+                    <span>15</span>
+                </div>
+                <div>Фосор</div>
+            </td>
+            <td class="item item-yellow">
+                <div class="item-header">
+                    <span>S</span>
+                    <span>16</span>
+                </div>
+                <div>Сера</div>
+            </td>
+            <td class="item item-yellow">
+                <div class="item-header">
+                    <span>Cl</span>
+                    <span>17</span>
+                </div>
+                <div>Хлор</div>
+            </td>
+            <td class="item item-indigo">
+                <div class="item-header">
+                    <span>Ar</span>
+                    <span>18</span>
+                </div>
+                <div>Аргон</div>
+                <td class="item" colspan="2"></td> 
+            </td>                        
+            <tr>
+                <th class="item">4</th>
+                <td class="item item-green">
+                    <div class="item-header">
+                        <span>K</span>
+                        <span>19</span>
+                    </div>
+                </div>
+                <div>Калий</div>
+            </td>
+            <td class="item item-green">
+                <div class="item-header">
+                    <span>Ca</span>
+                    <span>20</span>
+                </div>
+                <div>Кальций</div>
+            </td>
+            <td class="item item-green">
+                <div class="item-header">
+                    <span>Sc</span>
+                    <span>21</span>
+                </div>
+                <div>Скандий</div>
+            </td>
+            <td class="item item-green">
+                <div class="item-header">
+                    <span>Ti</span>
+                    <span>22</span>
+                </div>
+                <div>Титан</div>
+            </td>
+            <td class="item item-green">
+                <div class="item-header">
+                    <span>V</span>
+                    <span>23</span>
+                </div>
+                <div>Ванадий</div>
+            </td>
+            <td class="item item-green">
+                <div class="item-header">
+                    <span>Cr</span>
+                    <span>24</span>
+                </div>
+                <div>Хром</div>
+            </td>
+            <td class="item item-green">
+                <div class="item-header">
+                    <span>Mn</span>
+                    <span>25</span>
+                </div>
+                <div>Марганец</div>
+            </td>
+            <td class="item item-green">
+                <div class="item-header">
+                    <span>Fe</span>
+                    <span>26</span>
+                </div>
+                <div>Железо</div>
             </td> 
-            <td>
-                &nbsp
+            <td class="item item-green">
+                <div class="item-header">
+                    <span>Co</span>
+                    <span>27</span>
+                </div>
+                <div>Кобальт</div>
             </td>
-            <td>
-                &nbsp
+            <td class="item item-green">
+                <div class="item-header">
+                    <span>Ni</span>
+                    <span>28</span>
+                </div>
+                <div>Никель</div> 
+                            
             </td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Li Литий</td>
-            <td>Be Бериллий</td>
-            <td>B Бор</td>
-            <td>C Углеолд</td>
-            <td>N Азот</td>
-            <td>O Кислород</td>
-            <td>F Фтор</td>
-            <td>Ne Неон</td>
-            <td>&nbsp</td>
-            <td>&nbsp</td>
-        </tr>           
-        <tr>
-            <td>3</td>
-            <td>Na Натрий</td>
-            <td>Mg Магний</td>
-            <td>Al Алюминий</td>
-            <td>Si Кремний</td>
-            <td>P Фосфор</td>
-            <td>S Сера</td>
-            <td>Cl Хлор</td>
-            <td>Ar Аргон</td>
-            <td>&nbsp</td>
-            <td>&nbsp</td>          
-        </tr> 
-        <tr>
-            <td>4</td>
-            <td>Cu  Медь</td>
-            <td>Zn Цинк</td>
-            <td>Ga Галий</td>
-            <td>Ge Германий</td>
-            <td>As Мышьяк</td>
-            <td>Se Селен</td>
-            <td>Br Бром</td>
-            <td>Kr Криптон</td>
-            <td>&nbsp</td>
-            <td>&nbsp</td>  
-        </tr>
-         <tr>
-            <td>5</td>
-            <td>Rb Рубидий</td>
-            <td>Sr Стронций</td>
-            <td>Y Иттрий</td>
-            <td>Zr Цирконий</td>
-            <td>Nb Ниобий</td>                    
-            <td>Mo Молибден</td>
-            <td>Tc Технеций</td>
-            <td>Ru Рутений</td>
-            <td>Rh Родий</td>
-            <td>Pd Палладий</td>  
-         </tr>
-         <tr>
-            <td>5</td>
-            <td>Ag Серебро</td>
-            <td>Cd Кадмий</td>
-            <td>In Индий</td>
-            <td>Sn Олово</td>
-            <td>Sb Сурьма</td>                    
-            <td>Te Теллур</td>
-            <td>I Йод</td>
-            <td>Xe Ксенон</td>
-            <td>&nbsp</td>
-            <td>&nbsp</td>
-         </tr>
-         
-         
-
+            </tr>
             
-         
-    </table>
-    </table>
+            <tr>
+               
+            <th class="item">4</th> 
+             
+            </td>
+
+            <td class="item item-green">
+                <div class="item-header">
+                    <span>Cu</span>
+                    <span>29</span>
+                </div>
+            </div>
+            <div>Медь</div>
+        </td>
+        <td class="item item-green">
+            <div class="item-header">
+                <span>Zn</span>
+                <span>30</span>
+            </div>
+            <div>Цинк</div>
+        </td>
+        <td class="item item-green">
+            <div class="item-header">
+                <span>Ga</span>
+                <span>31</span>
+            </div>
+            <div>Галий</div>
+        </td>
+        <td class="item item-gradient-py">
+            <div class="item-header">
+                <span>Ge</span>
+                <span>32</span>
+            </div>
+            <div>Германий</div>
+        </td>
+        <td class="item item-yellow">
+            <div class="item-header">
+                <span>As</span>
+                <span>33</span>
+            </div>
+            <div>Мышьяк</div>
+        </td>
+        <td class="item item-yellow">
+            <div class="item-header">
+                <span>Se</span>
+                <span>34</span>
+            </div>
+            <div>Селен</div>
+        </td>
+        <td class="item item-yellow">
+            <div class="item-header">
+                <span>Br</span>
+                <span>35</span>
+            </div>
+            <div>Бром</div>
+        </td>
+        <td class="item item-indigo">
+            <div class="item-header">
+                <span>Kr</span>
+                <span>36</span>
+            </div>
+            <div>Криптон</div>
+            <td class="item" colspan="2"></td> 
+        </td>                
+        <tr>
+            <th class="item">5</th>
+            <td class="item item-green">
+                <div class="item-header">
+                    <span>Rb</span>
+                    <span>37</span>
+                </div>
+            </div>
+            <div>Рубидий</div>
+        </td>
+        <td class="item item-green">
+            <div class="item-header">
+                <span>Sr</span>
+                <span>38</span>
+            </div>
+            <div>Стронций</div>
+        </td>
+        <td class="item item-green">
+            <div class="item-header">
+                <span>Y</span>
+                <span>39</span>
+            </div>
+            <div>Иттрий</div>
+        </td>
+        <td class="item item-green">
+            <div class="item-header">
+                <span>Zr</span>
+                <span>40</span>
+            </div>
+            <div>Цирконий</div>
+        </td>
+        <td class="item item-green">
+            <div class="item-header">
+                <span>Nb</span>
+                <span>41</span>
+            </div>
+            <div>Ниобий</div>
+        </td>
+        <td class="item item-green">
+            <div class="item-header">
+                <span>Mo</span>
+                <span>42</span>
+            </div>
+            <div>Молибден</div>
+        </td>
+        <td class="item item-green">
+            <div class="item-header">
+                <span>Tc</span>
+                <span>43</span>
+            </div>
+            <div>Технеций</div>
+        </td>
+        <td class="item item-green">
+            <div class="item-header">
+                <span>Ru</span>
+                <span>44</span>
+            </div>
+            <div>Рутений</div>
+        </td> 
+        <td class="item item-green">
+            <div class="item-header">
+                <span>Rh</span>
+                <span>45</span>
+            </div>
+            <div>Родий</div>
+        </td>
+        <td class="item item-green">
+            <div class="item-header">
+                <span>Pd</span>
+                <span>46</span>
+            </div>
+            <div>Палладий</div>                                 
+        </td>
+        <tr>
+            <th class="item">5</th>
+            <td class="item item-green">
+                <div class="item-header">
+                    <span>Ag</span>
+                    <span>47</span>
+                </div>
+            </div>
+            <div>Серебро</div>
+        </td>
+        <td class="item item-green">
+            <div class="item-header">
+                <span>Cd</span>
+                <span>48</span>
+            </div>
+            <div>Кадмий</div>
+        </td>
+        <td class="item item-purple">
+            <div class="item-header">
+                <span>In</span>
+                <span>49</span>
+            </div>
+            <div>Индий</div>
+        </td>
+        <td class="item item-purple">
+            <div class="item-header">
+                <span>Sn</span>
+                <span>50</span>
+            </div>
+            <div>Олово</div>
+        </td>
+        <td class="item item-gradient-py">
+            <div class="item-header">
+                <span>Sb</span>
+                <span>51</span>
+            </div>
+            <div>Сурьма</div>
+        </td>
+        <td class="item item-yellow">
+            <div class="item-header">
+                <span>Te</span>
+                <span>52</span>
+            </div>
+            <div>Теллур</div>
+        </td>
+        <td class="item item-yellow">
+            <div class="item-header">
+                <span>I</span>
+                <span>53</span>
+            </div>
+            <div>Йод</div>
+        </td>
+        <td class="item item-indigo">
+            <div class="item-header">
+                <span>Xe</span>
+                <span>54</span>
+            </div>
+            <div>Ксенеон</div>
+            <td class="item" colspan="2"></td> 
+        </td>               
+        </tr>
+        <tr>
+        <div class="item-header">
+        <th class="item">6</th>
+            <td class="item item-green">
+                <div class="item-header">
+                    <span>Cs</span>
+                    <span>55</span>
+                </div>
+            </div>
+            <div>Цезий</div>
+        </td>
+            <td class="item item-green">
+            <div class="item-header">
+                <span>Ba</span>
+                <span>56</span>
+            </div>
+            <div>Барий</div>
+        </td>
+        <td class="item item-green">
+            <div class="item-header">
+                <span>La</span>
+                <span>57</span>
+            </div>
+            <div>Лантан</div>
+        </td>
+        <td class="item item-green">
+            <div class="item-header">
+                <span>Hf</span>
+                <span>72</span>
+            </div>
+            <div>Гафний</div>
+        </td>
+        <td class="item item-green">
+            <div class="item-header">
+                <span>Ta</span>
+                <span>73</span>
+            </div>
+            <div>Тантал</div>
+        </td>
+        <td class="item item-green">
+            <div class="item-header">
+                <span>W</span>
+                <span>74</span>
+            </div>
+            <div>Вольфрам</div>
+        </td>
+        <td class="item item-green">
+            <div class="item-header">
+                <span>Re</span>
+                <span>75</span>
+            </div>
+            <div>Рений</div>
+        </td>
+        <td class="item item-green">
+            <div class="item-header">
+                <span>Os</span>
+                <span>76</span>
+            </div>
+            <div>Осмий</div>
+        </td> 
+        <td class="item item-green">
+            <div class="item-header">
+                <span>Ir</span>
+                <span>77</span>
+            </div>
+            <div>Иридий</div>
+        </td>
+        <td class="item item-green">
+            <div class="item-header">
+                <span>Pt</span>
+                <span>78</span>
+            </div>
+            <div>Платина</div>
+        </td> 
+        <tr>
+        <div class="item-header"></div>
+            <th class="item">6</th>
+                <td class="item item-green">
+                    <div class="item-header">
+                        <span>Au</span>
+                        <span>79</span>
+                    </div>
+                </div>
+                <div>Золото</div>
+            </td>
+                <td class="item item-green">
+                <div class="item-header">
+                    <span>Hg</span>
+                    <span>80</span>
+                </div>
+                <div>Ртуть</div>
+            </td>
+            <td class="item item-green">
+                <div class="item-header">
+                    <span>Ti</span>
+                    <span>81</span>
+                </div>
+                <div>Таллий</div>
+            </td>
+            <td class="item item-green">
+                <div class="item-header">
+                    <span>Pb</span>
+                    <span>82</span>
+                </div>
+                <div>Свинец</div>
+            </td>
+            <td class="item item-purple">
+                <div class="item-header">
+                    <span>Bi</span>
+                    <span>83</span>
+                </div>
+                <div>Висмут</div>
+            </td>
+            <td class="item item-purple">
+                <div class="item-header">
+                    <span>Po</span>
+                    <span>84</span>
+                </div>
+                <div>Полоний</div>
+            </td>
+            <td class="item item-gradient-py">
+                <div class="item-header">
+                    <span>At</span>
+                    <span>85</span>
+                </div>
+                <div>Астат</div>
+            </td>
+            <td class="item item-indigo">
+                <div class="item-header">
+                    <span>Rn</span>
+                    <span>86</span>
+                </div>
+                <div>Радон</div>
+                <td class="item" colspan="2"></td> 
+            </td>                       
+            <tr>
+            <div class="item-header">
+                <th class="item">7</th>
+                    <td class="item item-green">
+                        <div class="item-header">
+                            <span>Fr</span>
+                            <span>87</span>
+                        </div>
+                    </div>
+                    <div>Франций</div>
+                </td>
+                    <td class="item item-green">
+                    <div class="item-header">
+                        <span>Ra</span>
+                        <span>88</span>
+                    </div>
+                    <div>Радий</div>
+                </td>
+                <td class="item item-green">
+                    <div class="item-header">
+                        <span>Ac</span>
+                        <span>89</span>
+                    </div>
+                    <div>Актиний</div>
+                </td>
+                <td class="item item-green">
+                    <div class="item-header">
+                        <span>Rf</span>
+                        <span>104</span>
+                    </div>
+                    <div>Резерфордий</div>
+                </td>
+                <td class="item item-green">
+                    <div class="item-header">
+                        <span>Db</span>
+                        <span>105</span>
+                    </div>
+                    <div>Дубний</div>
+                </td>
+                <td class="item item-green">
+                    <div class="item-header">
+                        <span>Sg</span>
+                        <span>106</span>
+                    </div>
+                    <div>Сиборгий</div>
+                </td>
+                <td class="item item-green">
+                    <div class="item-header">
+                        <span>Bh</span>
+                        <span>107</span>
+                    </div>
+                    <div>Борий</div>
+                </td>
+                <td class="item item-green">
+                    <div class="item-header">
+                        <span>Hs</span>
+                        <span>108</span>
+                    </div>
+                    <div>Хассий</div>
+                </td> 
+                <td class="item item-green">
+                    <div class="item-header">
+                        <span>Mt</span>
+                        <span>109</span>
+                    </div>
+                    <div>Мейтнерий</div>
+                </td>
+                <td class="item item-green">
+                    <div class="item-header">
+                        <span>Ds</span>
+                        <span>110</span>
+                    </div>
+                    <div>Дармштадтий</div>                    
+                </td>
+                <tr>
+                    <th class="item">ЛАКТАНОИДЫ</th>
+                    <td class="item item-green">
+                            <div class="item-green">
+                                <span>Ce</span>
+                                <span>58</span>
+                            </div>
+                        </div>
+                        <div>Царий</div>
+                    </td>
+                        <td class="item item-green">
+                        <div class="item-header">
+                            <span>Pr</span>
+                            <span>59</span>
+                        </div>
+                        <div>Празеодим</div>
+                    </td>
+                    <td class="item item-green">
+                        <div class="item-header">
+                            <span>Nd</span>
+                            <span>60</span>
+                        </div>
+                        <div>Неодим</div>
+                    </td>
+                    <td class="item item-green">
+                        <div class="item-header">
+                            <span>Pm</span>
+                            <span>61</span>
+                        </div>
+                        <div>Прометий</div>
+                    </td>
+                    <td class="item item-green">
+                        <div class="item-header">
+                            <span>Sm</span>
+                            <span>62</span>
+                        </div>
+                        <div>Самарий</div>
+                    </td>
+                    <td class="item item-green">
+                        <div class="item-header">
+                            <span>Eu</span>
+                            <span>63</span>
+                        </div>
+                        <div>Европий</div>
+                    </td>
+                    <td class="item item-green">
+                        <div class="item-header">
+                            <span>Gd</span>
+                            <span>64</span>
+                        </div>
+                        <div>Гадопиний</div>
+                    </td>
+                    <td class="item item-green">
+                        <div class="item-header">
+                            <span>Tb</span>
+                            <span>65</span>
+                        </div>
+                        <div>Тербий</div>
+                    </td>
+                    <td class="item item-green">
+                        <div class="item-header">
+                            <span>Dy</span>
+                            <span>66</span>
+                        </div>
+                        <div>Диспрозий</div>
+                    <td class="item item-green">
+                        <div class="item-header">
+                            <span>Ho</span>
+                            <span>67</span>
+                        </div>
+                        <div>Гальмий</div>
+                    <td class="item item-green">
+                        <div class="item-header">
+                            <span>Er</span>
+                            <span>68</span>
+                        </div>
+                        <div>Эрбий</div>
+                    <td class="item item-green">
+                        <div class="item-header">
+                            <span>Tm</span>
+                            <span>69</span>
+                        </div>
+                        <div>Тулий</div>
+                    </td>
+                    <td class="item item-green">
+                        <div class="item-header">
+                            <span>Yb</span>
+                            <span>70</span>
+                        </div>
+                        <div>Иттербий</div>
+                    </td>
+                    <td class="item item-green">
+                        <div class="item-header">
+                            <span>Lu</span>
+                            <span>71</span>
+                        </div>
+                        <div>Лютеций</div>
+                    </td>
+                    <tr>
+                    <th class="item">АКТИНОИДЫ</th>
+                    <td class="item item-green">
+                            <div class="item-header">
+                                <span>Th</span>
+                                <span>90</span>
+                            </div>
+                        </div>
+                        <div>Торий</div>
+                    </td>
+                        <td class="item item-green">
+                        <div class="item-header">
+                            <span>Pa</span>
+                            <span>91</span>
+                        </div>
+                        <div>Протактиний</div>
+                    </td>
+                    <td class="item item-green">
+                        <div class="item-header">
+                            <span>U</span>
+                            <span>92</span>
+                        </div>
+                        <div>Уран</div>
+                    </td>
+                    <td class="item item-green">
+                        <div class="item-header">
+                            <span>Np</span>
+                            <span>93</span>
+                        </div>
+                        <div>Нептуний</div>
+                    </td>
+                    <td class="item item-green">
+                        <div class="item-header">
+                            <span>Pu</span>
+                            <span>94</span>
+                        </div>
+                        <div>Плутоний</div>
+                    </td>
+                    <td class="item item-green">
+                        <div class="item-header">
+                            <span>Am</span>
+                            <span>95</span>
+                        </div>
+                        <div>Америций</div>
+                    </td>
+                    <td class="item item-green">
+                        <div class="item-header">
+                            <span>Cm</span>
+                            <span>96</span>
+                        </div>
+                        <div>Кюрий</div>
+                    </td>
+                    <td class="item item-green">
+                        <div class="item-header">
+                            <span>Bk</span>
+                            <span>97</span>
+                        </div>
+                        <div>Берклмй</div>
+                    </td>
+                    <td class="item item-green">
+                        <div class="item-header">
+                            <span>Cf</span>
+                            <span>98</span>
+                        </div>
+                        <div>Калифорний</div>
+                    <td class="item item-green">
+                        <div class="item-header">
+                            <span>Es</span>
+                            <span>99</span>
+                        </div>
+                        <div>Энштейний</div>
+                    <td class="item item-green">
+                        <div class="item-header">
+                            <span>Fm</span>
+                            <span>100</span>
+                        </div>
+                        <div>Фермий</div>
+                    <td class="item item-green">
+                        <div class="item-header">
+                            <span>Md</span>
+                            <span>101</span>
+                        </div>
+                        <div>Менделевий</div>
+                    </td>
+                    <td class="item item-green">
+                        <div class="item-header">
+                            <span>No</span>
+                            <span>102</span>
+                        </div>
+                        <div>Нобелий</div>
+                    </td>
+                    <td class="item item-green">
+                        <div class="item-header">
+                            <span>Lr</span>
+                            <span>103</span>
+                        </div>
+                        <div>Лауренсий</div>
+                    </td>
+                    
+            </tbody>                 
+<body>
     
+        
+    </table>           
 </body>
 </html>
