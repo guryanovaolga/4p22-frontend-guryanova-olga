@@ -18,26 +18,26 @@ body {
     text-align: center;
     top: 0;
     left: 0;
-    background: linear-gradient(to top,#fce8eccc,rgb(139, 83, 139));
-    height: 80px;
+    background: linear-gradient(to top,#f0b4edcc,rgb(175, 121, 180));
+    height: 100px;
     width: 100%;
     min-width: 186px;
-    padding-top: 2px;
+    padding-top: 10px;
     
 }
 
 .prime-header__caption {
-   position: relative;
-    font-size: 40px;
+   position: static;
+   font-family: Roboto;
+   font-size: 40px;
    font-weight: 400;
     margin: 0;
-    top: 2x;
-    font-family:"Roboto";
-    padding-top: 3px;
+    top: 20px;
+    padding-top: 20px;
+    
 }
 
 .prime-main {
-    position: sticky;
     margin-top: 50px;
     display: flex;
     flex-direction: row;
@@ -48,16 +48,17 @@ body {
     display: flex;
     flex-direction: column;
     overflow-y: auto;
-    background-color: rgb(253, 249, 252);
+    background-color: rgb(213, 177, 216);
     height: calc(100vh-90px);
     width: 30%;
     min-width: 105p;
 }
 
 .prime-main-sidebar__caption {
-    position: static;
+    position: sticky;
+    font-family: Roboto;
     top: 0;
-    background: linear-gradient(to right, #fdf5fc,rgb(207, 173, 214));
+    background: linear-gradient(to right, #d18ee2,rgb(232, 187, 236));
     padding-left: calc(4% + 3px);
     margin-top: 0;
     margin-bottom: 0;
@@ -66,6 +67,7 @@ body {
 
 .prime-main-sidebar__basik {
     text-decoration: none;
+    font-family: Roboto;
     width: 18px;
     margin-left: 4%;
     padding-left: 3px;
@@ -74,22 +76,21 @@ body {
 }
 
 .prime-main__workzone {
-    display: flexbox;
-    position: static;
+    position: relative;
+    display: flex;
     flex-direction: column;
     overflow-y: auto;
     background-color: rgb(255, 246, 255);
     height: calc(100vh-90px);
     width: 70%;
     min-width: 160px;
-    
 }
 
 .prime-main-workzone__caption {
-    
-    position: sticky;
     font-weight: 600;
-    background: linear-gradient(to right,#faf7f9,rgb(201, 106, 183));
+    font-family: Roboto;
+    position: sticky;
+    background: linear-gradient(to right,#c28ad3,rgb(211, 159, 201));
     padding-left: 10px;
     margin-top: 0;
     margin-bottom: 0;
@@ -99,15 +100,15 @@ body {
 }
 
 .prime-main-workzone_-bazik-list {
-    font-family:"Roboto";
     margin-top: 0px;
+    font-family: Roboto;
     margin-bottom: 0px;
     padding-left: 30px;
 }
 
 .prime-main-workzone__bazik-item {
-    font-family:"Roboto";
     text-decoration: none;
+    font-family: Roboto;
     padding-left: 10px;
     top: 0;
     height: 18px;
