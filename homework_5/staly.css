@@ -10,11 +10,10 @@
 .prime-header {
    position: fixed;
     text-align: center;    
-    background: linear-gradient(to top,#f0b4edcc,rgb(175, 121, 180));
+    background: #c166d8;
     height: 100px;
     width: 100%;
     min-width: 186px;
-    padding-top: 10px; 
     z-index: 100;
 }
 
@@ -27,13 +26,6 @@
    padding-top: 20px;   
 }
 
-.prime-main {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    height: calc(100vh-90px);
-}
-
 .prime-main__sidebar {
     position: relative;
     display: flex;
@@ -43,13 +35,14 @@
     height: calc(100vh-90px);
     width: 30%;
     min-width: 105p;
-    top: 150px;
+    top: 160px;
 }
 
 .prime-main-sidebar__caption {
+    height: 50px;
     font-family: Roboto;
     top: 160px;
-    background: linear-gradient(to right, #d18ee2,rgb(232, 187, 236));
+    background: linear-gradient(to right, #e7aef5,rgb(246, 244, 247));
     padding-left: calc(4% + 3px);
     margin-top: 0;
     margin-bottom: 0;
@@ -80,7 +73,7 @@
     position: sticky;
     background: linear-gradient(to right,#c28ad3,rgb(211, 159, 201));
     padding-left: 10px;
-    top: 160px;
+    top: 100px;
     height: 18px;   
 }
 
