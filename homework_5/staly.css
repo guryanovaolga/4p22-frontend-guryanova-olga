@@ -18,6 +18,7 @@
 }
 
 .prime-header__caption {
+   
    font-family: Roboto;
    font-size: 40px;
    font-weight: 400;
@@ -28,7 +29,7 @@
 
 .prime-main__sidebar {
     position: fixed;
-    overflow-y: auto;
+    margin-top: 300px;
     background-color: rgb(213, 177, 216);
     height: calc(100vh-90px);
     width: 30%;
@@ -48,20 +49,24 @@
 
 
 .prime-main-sidebar__caption {
+    position: static;
     height: 50px;
     font-family: Roboto;
-    top: 160px;
+    top: 20px;
     background: linear-gradient(to right, #e7aef5,rgb(246, 244, 247));
     padding-left: calc(4% + 3px);
-    margin-top: 0;
+    margin-top: 300px;
     
 }
 
 .prime-main-sidebar__basik {
+    position: fixed; 
     text-decoration: none;
     font-family: Roboto;
+    font-size: 22px;
     width: 18px;
     margin-left: 4%;
+    margin-top: 300px;
     padding-left: 3px;
     top: 0;    
 }
