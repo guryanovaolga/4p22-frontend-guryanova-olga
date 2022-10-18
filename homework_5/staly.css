@@ -8,7 +8,7 @@
 }
 
 .prime-header {
-   position: fixed;
+    position: fixed;
     text-align: center;    
     background: #c166d8;
     height: 100px;
@@ -27,9 +27,7 @@
 }
 
 .prime-main__sidebar {
-    position: relative;
-    display: flex;
-    flex-direction: column;
+    position: fixed;
     overflow-y: auto;
     background-color: rgb(213, 177, 216);
     height: calc(100vh-90px);
@@ -38,6 +36,17 @@
     top: 160px;
 }
 
+.prime-main-sidebar__book {
+   list-style-type: none;   
+}
+
+
+.prime-main-sidebar__link {
+    text-decoration: none;
+}
+
+
+
 .prime-main-sidebar__caption {
     height: 50px;
     font-family: Roboto;
@@ -45,7 +54,7 @@
     background: linear-gradient(to right, #e7aef5,rgb(246, 244, 247));
     padding-left: calc(4% + 3px);
     margin-top: 0;
-    margin-bottom: 0;
+    
 }
 
 .prime-main-sidebar__basik {
