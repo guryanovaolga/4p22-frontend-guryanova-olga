@@ -4,24 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <link rel="stylesheet" href="fonts.css" type="text/css">
-    <title><homework-7></homework-7></title>
+    <link rel="stylesheet" href="style.css" text="style.css">
+    <title>Форма входа</title>
 </head>
-<body>
+<body class="body">
     <main class="main">
-    <div class="main__container">
-        <form class="main-container__form">
-          <h1 class="container-form__heading">Вход</h1>
-            <label class="container-form-email__label" for="email">Email</label>
-            <input class="container-form-email__input"> id="email" name="email" type="email" placeholder="Введите email" autocomplete="off">
-            <label class="container-form-password__label" for="password">Пароль</label>   
-            <input class="container-form-password__input"> id="password" name="password" type="password" placeholder="Введите пароль" autocomplete="off">
-            <input class="custom-checkbox"> name="checkbox" type="checkbox" value="yes">
-            <label for="checkbox">Я согласен получать обновления на почту</label>
-          <button class="container-form__button">Войти</button> 
-        </form>
-    </div>
+        <div class="main-container">
+            <h1 class="main-container__input">
+                Вход
+            </h1>
+            <div class="main-container__email">
+                <label class="main-container__label-email" for="input-email">Email</label>
+                <input class="main-container__input-email" type="email" name="email" id="input-email" required placeholder="Введите email">
+            </div> 
+            <div class="main-container__pass">
+                <label for="input-password" class="main-container__label-password">Пароль</label>
+                <input class="main-container__input-pass" type="password" name="password" id="input-password" required placeholder="Введите пароль">
+            </div>
+            <div class="main-container__agree">
+            <input class="main-container__checkbox-agree" id="checkbox-agree" type="checkbox" name="checkbox-agree" required>
+            <label class="main-container__agree-text" for="checkbox-agree">Я согласен получать обновления на почту</label>
+        </div>
+        <div class="main-container__button">
+             <a href="#">Войти</a>
+        </div>
+        </div>
     </main>
 </body>
 </html>
