@@ -4,28 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style css" type="text/css">
-    <title>Форма входа</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="fonts.css" type="text/css">
+    <title><homework-7></homework-7></title>
 </head>
 <body>
-    <div class="background container">
-        <form class="card container">
-            <h1 class="card__header">Вход</h1>
-            <label for="email class="email-header'>Email</label>
-            <div class="email">
-                <input id="email" class="input" type="emael" name="card-group" placeholder="Почта">
-            </div>
-            <div class="password" >
-                <input id="password" class="input" type="password" name="card-group" placeholder="Пароль">
-            </div>
-            <div class="agreement">
-                <input id="checkbox" class="agreement__chekbox" type="checkbox" name="policyagreemrnt" checked>
-                <label for="checkbox" class="fgreement__note">Ясогласен получать обновления</label>
-            </div>
-            <div class="butoonbox">
-                <button class="buttonbox__buttonn" type="submit">Войти</button>
-            </div>
+    <main class="main">
+    <div class="main__container">
+        <form class="main-container__form">
+          <h1 class="container-form__heading">Вход</h1>
+            <label class="container-form-email__label" for="email">Email</label>
+            <input class="container-form-email__input"> id="email" name="email" type="email" placeholder="Введите email" autocomplete="off">
+            <label class="container-form-password__label" for="password">Пароль</label>   
+            <input class="container-form-password__input"> id="password" name="password" type="password" placeholder="Введите пароль" autocomplete="off">
+            <input class="custom-checkbox"> name="checkbox" type="checkbox" value="yes">
+            <label for="checkbox">Я согласен получать обновления на почту</label>
+          <button class="container-form__button">Войти</button> 
         </form>
     </div>
+    </main>
 </body>
 </html>
