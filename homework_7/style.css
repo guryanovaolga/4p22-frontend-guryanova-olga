@@ -135,13 +135,14 @@
     position: absolute;
     width: 24px;
     height: 24px;
-    background: url(img/Check-Mark.png);
+    background: url(img/Check-Mark.png) 0 0 no-repeat;
     background-size: 100%;
     left: 0;
     bottom: 0;
     opacity: 0;
     transition: .2 opacity;
 }
+
 .auth-checkbox__input:checked + .auth-checkbox__label::after {
     opacity: 1;
 }
@@ -149,7 +150,6 @@
 .auth__submit{
     margin: 0;
     text-align: center;
-  
     margin-bottom: 25px;
 }
 
@@ -165,11 +165,11 @@
     font-size: 24px;
     line-height: 16px;
     color: #FFFFFF;
+    
 }
 
-@media screen and (max-widht: 768px) {
-    .auth__submit {
-    
+@media screen and (min-widht: 320px) and (max-widht: 768px)  {
+    .auth__form {
     height: calc(697 / 768 * 100vw);
     width: calc(728 / 768 * 100vw);
     top: calc(20 / 768 * 100vw);
@@ -231,6 +231,7 @@
 .auth-checkbox__label::after {
     height: calc(32 / 768 * 100vw);
     width: calc(32 / 768 * 100vw);
+
 }
 .auth-submit__input {
     height: calc(80 / 768 * 100vw);
@@ -241,9 +242,32 @@
 
 }
 
+@media screen and (min-widht: 320px) and (max-widht: 768px) {
 
+.auth__checkbox {
+    margin-top: calc(35 / 320 * 100vw);
+    margin-bottom: calc(34 / 320 * 100vw);
+    padding-bottom: calc(4 / 320 * 100vw);
+}
 
+.auth-checkbox__label {
+    font-size: calc(18 / 320 * 100vw);
+    padding-left: calc(45 / 320 * 100vw);
+}
 
+.auth-checkbox__label::before {
+    height: calc(28 / 320 * 100vw);
+    width: calc(28/ 320 * 100vw);
+    border-radius: calc(7 / 320 * 100vw);
+}
+
+.auth-checkbox__label::after {
+    height: calc(32 / 320 * 100vw);
+    width: calc(32 / 320 * 100vw);
+
+} 
+
+}
 
 
 
